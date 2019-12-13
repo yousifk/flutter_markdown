@@ -359,97 +359,97 @@ class MarkdownStyleSheet {
   }
 
   /// The [TextStyle] to use for `a` elements.
-  final TextStyle a;
+  TextStyle a;
 
   /// The [TextStyle] to use for `p` elements.
-  final TextStyle p;
+  TextStyle p;
 
   /// The [TextStyle] to use for `code` elements.
-  final TextStyle code;
+  TextStyle code;
 
   /// The [TextStyle] to use for `h1` elements.
-  final TextStyle h1;
+  TextStyle h1;
 
   /// The [TextStyle] to use for `h2` elements.
-  final TextStyle h2;
+  TextStyle h2;
 
   /// The [TextStyle] to use for `h3` elements.
-  final TextStyle h3;
+  TextStyle h3;
 
   /// The [TextStyle] to use for `h4` elements.
-  final TextStyle h4;
+  TextStyle h4;
 
   /// The [TextStyle] to use for `h5` elements.
-  final TextStyle h5;
+  TextStyle h5;
 
   /// The [TextStyle] to use for `h6` elements.
-  final TextStyle h6;
+  TextStyle h6;
 
   /// The [TextStyle] to use for `em` elements.
-  final TextStyle em;
+  TextStyle em;
 
   /// The [TextStyle] to use for `strong` elements.
-  final TextStyle strong;
+  TextStyle strong;
 
   /// The [TextStyle] to use for `del` elements.
-  final TextStyle del;
+  TextStyle del;
 
   /// The [TextStyle] to use for `blockquote` elements.
-  final TextStyle blockquote;
+  TextStyle blockquote;
 
   /// The [TextStyle] to use for `img` elements.
-  final TextStyle img;
+  TextStyle img;
 
   /// The [TextStyle] to use for `input` elements.
-  final TextStyle checkbox;
+  TextStyle checkbox;
 
   /// The amount of vertical space to use between block-level elements.
-  final double blockSpacing;
+  double blockSpacing;
 
   /// The amount of horizontal space to indent list items.
-  final double listIndent;
+  double listIndent;
 
   /// The [TextStyle] to use for bullets.
-  final TextStyle listBullet;
+  TextStyle listBullet;
 
   /// The [TextStyle] to use for `th` elements.
-  final TextStyle tableHead;
+  TextStyle tableHead;
 
   /// The [TextStyle] to use for `td` elements.
-  final TextStyle tableBody;
+  TextStyle tableBody;
 
   /// The [TextAlign] to use for `th` elements.
-  final TextAlign tableHeadAlign;
+  TextAlign tableHeadAlign;
 
   /// The [TableBorder] to use for `table` elements.
-  final TableBorder tableBorder;
+  TableBorder tableBorder;
 
   /// The [TableColumnWidth] to use for `th` and `td` elements.
-  final TableColumnWidth tableColumnWidth;
+  TableColumnWidth tableColumnWidth;
 
   /// The padding to use for `th` and `td` elements.
-  final EdgeInsets tableCellsPadding;
+  EdgeInsets tableCellsPadding;
 
   /// The decoration to use for `th` and `td` elements.
-  final Decoration tableCellsDecoration;
+  Decoration tableCellsDecoration;
 
   /// The padding to use for `blockquote` elements.
-  final EdgeInsets blockquotePadding;
+  EdgeInsets blockquotePadding;
 
   /// The decoration to use behind `blockquote` elements.
-  final Decoration blockquoteDecoration;
+  Decoration blockquoteDecoration;
 
   /// The padding to use for `pre` elements.
-  final EdgeInsets codeblockPadding;
+  EdgeInsets codeblockPadding;
 
   /// The decoration to use behind for `pre` elements.
-  final Decoration codeblockDecoration;
+  Decoration codeblockDecoration;
 
   /// The decoration to use for `hr` elements.
-  final Decoration horizontalRuleDecoration;
+  Decoration horizontalRuleDecoration;
 
   // The text scale factor to use in textual elements
-  final double textScaleFactor;
+  double textScaleFactor;
 
   /// A [Map] from element name to the corresponding [TextStyle] object.
   Map<String, TextStyle> get styles => _styles;
